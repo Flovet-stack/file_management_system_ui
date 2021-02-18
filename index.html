@@ -9,23 +9,33 @@
     <!-- custom css styles -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- line icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"
+    />
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="main-wrapper">
         <header>
-            <div class="logo-con"></div>
+            <div class="logo-con">
+                FMS
+            </div>
             <div class="header-sub">
-                <form class="search-form"></form>
+                <div class="search">
+                    <form class="search-form">
+                        <div class="icon"><i class="lni lni-search-alt"></i></div>
+                        <input type="search" name="" id="search-field" placeholder="Search">
+                    </form>
+                    <div class="search-results"></div>
+                </div>
                 <div class="header-sub-2">
                     <div class="space-used"></div>
                     <div class="user-dropdown">
                         <div class="user-img"></div>
                         <div class="user-name">Username</div>
-                        <i class="fas fa-caret-down"></i>
+                        <i class="lni lni-chevron-down"></i>
                     </div>
                 </div>
             </div>
