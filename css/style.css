@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+}
+
+
+/* MAIN CONTENT WRAPPER STYLES  */
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* DASHBOARD HEADER STYLES  */
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+header .logo-con {
+    width: 250px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: green;
+}
+
+header .header-sub {
+    width: calc(100% - 250px);
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+header .header-sub-2 {
+    display: flex;
+}
+
+header .header-sub-2 .user-dropdown {
+    display: flex;
+}
+
+
+/* MAIN DASHBOARD CONTENT STYLES */
+
+.sub-content-wrapper {
+    display: flex;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.sub-content-wrapper .side-nav {
+    width: 250px;
+    height: inherit;
+    background-color: brown;
+}
+
+.sub-content-wrapper .main-dashboard-content {
+    width: calc(100% - 250px);
+    height: inherit;
+    background-color: pink;
+}
+
+nav.dashboard-sub-nav {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+}
